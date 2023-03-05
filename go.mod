@@ -3,7 +3,9 @@ module github.com/silabig1294/customer
 go 1.17
 
 require (
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gofiber/fiber/v2 v2.42.0
+	golang.org/x/crypto v0.0.0-20220214200702-86341886e292
 	gorm.io/driver/mysql v1.4.7
 	gorm.io/gorm v1.24.6
 )
